@@ -8,7 +8,7 @@ const config: PlaywrightTestConfig = {
     trace: 'on',
     channel: 'msedge',
     locale: 'pt-BR',
-    headless: true, // false se quiser ver o navegador em execução
+    headless: false, // false se quiser ver o navegador em execução, true se não
     viewport: { width: 1280, height: 720 },
     ignoreHTTPSErrors: true,
     screenshot: 'on',
